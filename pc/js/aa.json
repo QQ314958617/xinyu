@@ -1,0 +1,326 @@
+[{"tiyan":[{ 
+	"name":"ws", 
+	"style":"ty",
+	"img":"images/sstyle03.jpg", 
+	"type":"卧室",
+	"wuming":"米兰剪影客厅01",
+	"bianhao":"C21891",
+	"xias":"aa01"
+},{ 
+	"name":"sf",
+	"style":"os", 
+	"img":"images/sstyle01.jpg", 
+	"type":"书房",
+	"wuming":"月亮女神书房01",
+	"bianhao":"D00001",
+	"xias":"aa02"	
+},{ 
+	"name":"ws", 
+	"style":"ms",
+	"img":"images/sstyle03.jpg", 
+	"type":"卧室",
+	"wuming":"米兰剪影客厅02",
+	"bianhao":"C21892",
+	"xias":"aa03"	
+},{ 
+	"name":"qsn",
+	"style":"os", 
+	"img":"images/sstyle02.jpg", 
+	"type":"青少年房",
+	"wuming":"月亮女神书房02",
+	"bianhao":"D00002",
+	"xias":"aa04"
+},{ 
+	"name":"kt",
+	"style":"xgd", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅03",
+	"bianhao":"A00003",
+	"xias":"aa05"
+},{ 
+	"name":"ws",
+	"style":"os", 
+	"img":"images/sstyle03.jpg", 
+	"type":"卧室",
+	"wuming":"米兰剪影客厅03",
+	"bianhao":"C21893",
+	"xias":"aa06"
+},{ 
+	"name":"ws",
+	"style":"xd", 
+	"img":"images/sstyle03.jpg", 
+	"type":"卧室",
+	"wuming":"米兰剪影客厅04",
+	"bianhao":"C21894",
+	"xias":"aa07"
+},{ 
+	"name":"ws",
+	"style":"xgd", 
+	"img":"images/sstyle03.jpg", 
+	"type":"卧室",
+	"wuming":"米兰剪影客厅05",
+	"bianhao":"C21895",
+	"xias":"aa08"
+},{ 
+	"name":"sf",
+	"style":"os", 
+	"img":"images/sstyle01.jpg", 
+	"type":"书房",
+	"wuming":"月亮女神书房01",
+	"bianhao":"D00001",
+	"xias":"aa09"
+},{ 
+	"name":"sf",
+	"style":"xd", 
+	"img":"images/sstyle01.jpg", 
+	"type":"书房",
+	"wuming":"月亮女神书房02",
+	"bianhao":"D00002",
+	"xias":"aa10"
+},{ 
+	"name":"sf",
+	"style":"xgd", 
+	"img":"images/sstyle01.jpg", 
+	"type":"书房",
+	"wuming":"月亮女神书房03",
+	"bianhao":"D00003",
+	"xias":"aa11"
+}, { 
+	"name":"qsn",
+	"style":"os", 
+	"img":"images/sstyle02.jpg", 
+	"type":"青少年房",
+	"wuming":"月亮女神书房01",
+	"bianhao":"D00001",
+	"xias":"aa12"
+},{ 
+	"name":"qsn",
+	"style":"os", 
+	"img":"images/sstyle02.jpg", 
+	"type":"青少年房",
+	"wuming":"月亮女神书房02",
+	"bianhao":"D00002",
+	"xias":"aa13"
+},{ 
+	"name":"qsn",
+	"style":"xgd", 
+	"img":"images/sstyle02.jpg", 
+	"type":"青少年房",
+	"wuming":"月亮女神书房03",
+	"bianhao":"D00003",
+	"xias":"aa14"
+},{ 
+	"name":"qsn",
+	"style":"ms", 
+	"img":"images/sstyle02.jpg", 
+	"type":"青少年房",
+	"wuming":"月亮女神书房04",
+	"bianhao":"D00004",
+	"xias":"aa15"
+},{ 
+	"name":"kt",
+	"style":"os", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅01",
+	"bianhao":"A00001",
+	"xias":"aa16"
+},{ 
+	"name":"kt",
+	"style":"ty", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅02",
+	"bianhao":"A00002",
+	"xias":"aa17"
+},{ 
+	"name":"kt",
+	"style":"xgd", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅03",
+	"bianhao":"A00003",
+	"xias":"aa18"
+},{ 
+	"name":"kt",
+	"style":"xd", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅04",
+	"bianhao":"A00004",
+	"xias":"aa19"
+},{ 
+	"name":"kt",
+	"style":"ms", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅05",
+	"bianhao":"A00005",
+	"xias":"aa20"
+},{ 
+	"name":"kt",
+	"style":"ms", 
+	"img":"images/sstyle04.jpg", 
+	"type":"客厅",
+	"wuming":"米兰剪影客厅06",
+	"bianhao":"A00006",
+	"xias":"aa21"
+},{ 
+	"name":"cf",
+	"style":"xgd", 
+	"img":"images/sstyle02.jpg", 
+	"type":"厨房",
+	"wuming":"地中海系列厨房01",
+	"bianhao":"B00001",
+	"xias":"aa22"
+},{ 
+	"name":"cf",
+	"style":"ms", 
+	"img":"images/sstyle02.jpg", 
+	"type":"厨房",
+	"wuming":"地中海系列厨房02",
+	"bianhao":"B00002",
+	"xias":"aa23"
+}
+]},{
+"aa01":[{ 
+	"qiangz":["images/tiao01.jpg","images/tiao02.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao02.jpg","images/tiao03.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":[]
+}],
+"aa02":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao04.jpg"]
+}],
+"aa03":[{ 
+	"qiangz":["images/tiao02.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao02.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao03.jpg"]
+}],
+"aa04":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao03.jpg","images/tiao04.jpg"],
+	"chuangl":[],
+	"ditan":["images/tiao02.jpg"]
+}],
+"aa05":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao02.jpg","images/tiao03.jpg"],
+	"ruanb":[],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":[]
+}],
+"aa06":[{ 
+	"qiangz":["images/tiao02.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao01.jpg"]
+}],
+"aa07":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao04.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao01.jpg"]
+}],
+"aa08":[{ 
+	"qiangz":["images/tiao03.jpg","images/tiao02.jpg"],
+	"ruanb":["images/tiao03.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao03.jpg","images/tiao01.jpg"]
+}],
+"aa09":[{ 
+	"qiangz":["images/tiao02.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":[]
+}],
+"aa10":[{ 
+	"qiangz":["images/tiao02.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao02.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao02.jpg"]
+}],
+"aa11":[{ 
+	"qiangz":["images/tiao03.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao01.jpg"],
+	"ditan":["images/tiao04.jpg","images/tiao01.jpg"]
+}],
+"aa12":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg","images/tiao02.jpg"],
+	"ruanb":["images/tiao02jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao03.jpg"]
+}],
+"aa13":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao02.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao03.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao01.jpg"]
+}],
+"aa14":[{ 
+	"qiangz":["images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao02.jpg","images/tiao02.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao02.jpg"]
+}],
+"aa15":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":[]
+}],
+"aa16":[{ 
+	"qiangz":["images/tiao02.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao01.jpg"]
+}],
+"aa17":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg"],
+	"ruanb":["images/tiao03.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":[]
+}],
+"aa18":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao02.jpg","images/tiao04.jpg"]
+}],
+"aa19":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao02.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao04.jpg"]
+}],
+"aa20":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao04.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg"],
+	"ditan":["images/tiao01.jpg"]
+}],
+"aa21":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao01.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao01.jpg","images/tiao03.jpg"],
+	"ditan":["images/tiao03.jpg"]
+}],
+"aa22":[{ 
+	"qiangz":["images/tiao04.jpg","images/tiao01.jpg"],
+	"ruanb":["images/tiao03.jpg","images/tiao04.jpg"],
+	"chuangl":["images/tiao03.jpg","images/tiao03.jpg"],
+	"ditan":["images/tiao02.jpg"]
+}],
+"aa23":[{ 
+	"qiangz":["images/tiao02.jpg","images/tiao03.jpg"],
+	"ruanb":["images/tiao02.jpg","images/tiao01.jpg"],
+	"chuangl":["images/tiao04.jpg"],
+	"ditan":["images/tiao01.jpg","images/tiao04.jpg"]
+}]
+}
+] 

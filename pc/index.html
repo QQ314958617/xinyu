@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>欣宇</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/yanzheng.js"></script>
+<script src="js/index.js"></script>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7'],
+		menu: '#menu',
+		'navigation': true,
+		'afterLoad': function(anchorLink, index){
+				if(index == 1){
+					$('.huazhi').addClass('chuhua');
+					$('.shou').addClass('chushou');
+				}else{
+					$('.huazhi').removeClass('chuhua');
+					$('.shou').removeClass('chushou');
+				}if(index == 2){
+					$('.xiaoer').addClass('hua');
+				}
+			}
+	});
+});
+</script>
+</head>
+<body>
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1"><i class="iconfont">&#xe605;</i><span>首页</span></a></li>
+		<li data-menuanchor="page2"><a href="#page2"><i class="iconfont">&#xe603;</i><span>优势</span></a></li>
+		<li data-menuanchor="page3"><a href="#page3"><i class="iconfont">&#xe600;</i><span>DIY体验馆</span></a></li>
+		<li data-menuanchor="page4"><a href="#page4"><i class="iconfont">&#xe601;</i><span>案例展示</span></a></li>
+		<li data-menuanchor="page5"><a href="#page5"><i class="iconfont">&#xe602;</i><span>核心团队</span></a></li>
+		<li data-menuanchor="page6"><a href="#page6"><i class="iconfont">&#xe604;</i><span>欣宇动态</span></a></li>
+		<li data-menuanchor="page7"><a href="#page7"><i class="iconfont">&#xe606;</i><span>联系我们</span></a></li>
+	</ul>
+        
+		<!--nav end-->
+		<div class="menuleft">
+			<div class="m_top">
+				<span>MENU</span>
+				<i></i>
+				<b></b>
+			</div>
+			<div class="m_down">
+				<h3>
+					<span class="tuichu"><i></i>收起</span>
+					欣 宇
+				</h3>
+				<ul class="m_li">
+					<li class="lis">
+						<h4>产 品<b></b></h4>
+						<ul>
+							<li><a href="#">墙 纸</a></li>
+							<li><a href="#">窗 帘</a></li>
+							<li><a href="#">地 毯</a></li>
+							<li><a href="#">软 包</a></li>
+						</ul>
+					</li>
+					<li class="lis">
+						<h4>案 例<b></b></h4>
+						<ul>
+							<li><a href="#">墙 纸</a></li>
+							<li><a href="#">窗 帘</a></li>
+							<li><a href="#">地 毯</a></li>
+							<li><a href="#">软 包</a></li>
+						</ul>
+					</li>
+					<li class="lis">
+						<h4>分 店<b></b></h4>
+						<ul>
+							<li><a href="#">墙 纸</a></li>
+							<li><a href="#">窗 帘</a></li>
+							<li><a href="#">地 毯</a></li>
+							<li><a href="#">软 包</a></li>
+						</ul>
+					</li>
+					<li class="lis">
+						<h4>动 态<b></b></h4>
+						<ul>
+							<li><a href="#">墙 纸</a></li>
+							<li><a href="#">窗 帘</a></li>
+							<li><a href="#">地 毯</a></li>
+							<li><a href="#">软 包</a></li>
+						</ul>
+					</li>
+					<li class="lis">
+						<h4>联 系<b></b></h4>
+						<ul>
+							<li><a href="#">墙 纸</a></li>
+							<li><a href="#">窗 帘</a></li>
+							<li><a href="#">地 毯</a></li>
+							<li><a href="#">软 包</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="lx_down">
+					<ul>
+						<li><span></span><img src="images/meinv.png"/></li>
+						<li>在线客服</li>
+						<li>400-888-888</li>
+						<li class="zixun"><a href="#"><i></i>产品咨询</a></li>
+						<li class="zixun"><a href="#"><i></i>加盟咨询</a></li>
+						<li class="zixun"><a href="#"><i></i>售后咨询</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--menu end-->
+		<div class="lianxi">
+			<div class="lx_top">
+				<h4>点击和我联系</h4><span><b>展开>></b></span>
+			</div>
+		</div>
+<!--daohang end-->
+<div id="dowebok">
+	<div class="section section1">
+		<div class="huazhi"></div>
+		<div class="shou">
+			<img src="images/shou.png"/>
+		</div>
+		<div class="down_btn"></div>
+	</div>
+	<!--模板1 结束-->
+	<div class="section section2">
+		<div class="wrap clearfix xiaoer hua">
+			<div class="zuku zu_lis01">
+				<div class="z_img">
+					<img src="images/zu_01.jpg"/>
+					<div class="bianj01"></div>
+				</div>
+				<div class="z_wen zw01">
+					<h4>01</h4>
+					<h5>11年家装装饰经验 ;</h5>
+					<h5>最早荣获ISO9000质量体系认证</h5>
+					<p>11年家装装饰专业经验让欣宇荣获：家庭装修行业质量保证企业、上海市信得过家庭装饰企业、百姓喜爱的家装品牌、上海装饰材料市场金楹奖、最佳品牌形象店等荣誉。</p>
+				</div>
+			</div>
+			<div class="zuku zu_lis02">
+				<div class="z_wen zw02">
+					<h4>02</h4>
+					<h5>原创设计，全新搭配</h5>
+					<p>来自欧洲顶尖设计师团队，用国际化视野和原创设计打造中西多元化的高端设计装修。欣宇为用户提供墙纸、窗帘、地毯、软包等整体家装搭配一站式服务、咨询，给您最时尚、最全新的家装搭配技巧和建议，让您省时、省心、省力。</p>
+				</div>
+				<div class="z_img">
+					<img src="images/zu_02.jpg"/>
+					<div class="bianj02"></div>
+				</div>
+			</div>
+			<div class="zuku zu_lis03">
+				<div class="zutop">
+					<div class="z_img">
+						<img src="images/zu_03.jpg"/>
+						<div class="bianj01"></div>
+					</div>
+					<div class="z_wen zw03">
+						<h4>03</h4>
+						<h5>技术精湛的施工队伍</h5>
+						<p>一个装修经验超过17年的215人的装饰团队，40名装饰专家带队。给您带来最严格、最规范、最温馨的施工程序。</p>
+					</div>
+				</div>
+				<div class="zdown">
+					<h4>欣宇装饰<span><a href="#">免费获取专业软装搭配方案<b></b></a></span></h4>
+					<h5>全国服务热线：<span>400-888-8888</span></h5>
+				</div>
+			</div>
+			<div class="zuku zu_lis04">
+				<div class="z_wen zw04">
+					<h4>04</h4>
+					<h5>顶级工艺，至尊享受！</h5>
+					<ul>
+						<li>墙纸：<span>精选德国顶级材料、多种天然植物纤维，结合对人体健康极其有 益的负离子材料改性而成。</span></li>
+						<li>窗帘：<span>300多道西装工艺加工而成，采 用国际最严苛的自检工序，保障 高端品质。</span></li>
+						<li>软包：<span>由德国的进口设备用专业模具，低温高压，整体一次成型，产品 细腻、富有手感。</span></li>
+						<li>地毯：<span>采用美国先进的数字显示检测仪 器，为您量身打造质地如软，图 案精致 的环保产品。</span></li>
+					</ul>
+				</div>
+				<div class="z_img">
+					<img src="images/zu_04.jpg"/>
+					<div class="bianj02"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--模板2 结束-->
+	<div class="section section3">
+		<div class="wrap">
+			<div class="tiyan_top clearfix">
+				<h3>家居   DIY  体验馆</h3>
+				<div class="wuzi clearfix">
+					<span class="leitit">场景分类</span>
+					<ul class="fangz clearfix">
+						<li date="ws">卧室</li>
+						<li date="sf">书房</li>
+						<li date="qsn">青少年房</li>
+						<li date="kt">客厅</li>
+						<li date="cf">厨房</li>
+					</ul>
+				</div>
+				<div class="fenge clearfix">
+					<span class="leitit">风格分类</span>
+					<ul class="yangs clearfix">
+						<li date="ty">田园</li>
+						<li date="ms">美式</li>
+						<li date="os">欧式</li>
+						<li date="xd">现代</li>
+						<li class="quyou" date="xgd">新古典</li>
+					</ul>
+				</div>
+				<div class="zuu">
+					<div class="changzhan bd">
+						<ul class="jiachang clearfix"></ul>
+					</div>
+				</div>
+			</div>
+			<div class="tiyan_down clearfix">
+				<div class="changjing">
+					<img src="images/changj01.jpg"/>
+				</div>
+				<div class="tiaoshi">
+					<div class="tiao tiao_top">
+						<h4><span class="gengle rod gaored">更换墙纸</span><span class="rod">更换软包</span></h4>
+						<ul class="style01 jia01">
+							<li class="or"><img src="images/tiao01.jpg"/></li>
+							<li><img src="images/tiao01.jpg"/></li>
+							<li><img src="images/tiao01.jpg"/></li>
+							<li><img src="images/tiao01.jpg"/></li>
+							<li><img src="images/tiao01.jpg"/></li>
+							<li><img src="images/tiao01.jpg"/></li>
+						</ul>
+						<ul class="style02 jia02">
+							<li class="or"><img src="images/tiao02.jpg"/></li>
+							<li><img src="images/tiao02.jpg"/></li>
+							<li><img src="images/tiao02.jpg"/></li>
+							<li><img src="images/tiao02.jpg"/></li>
+							<li><img src="images/tiao02.jpg"/></li>
+							<li><img src="images/tiao02.jpg"/></li>
+						</ul>
+					</div>
+					<div class="tiao tiao_down">
+						<h4><span class="gengle rod gaored">更换窗帘</span><span class="rod">更换地毯</span></h4>
+						<ul class="style01 jia03">
+							<li class="or"><img src="images/tiao03.jpg"/></li>
+							<li><img src="images/tiao03.jpg"/></li>
+							<li><img src="images/tiao03.jpg"/></li>
+							<li><img src="images/tiao03.jpg"/></li>
+							<li><img src="images/tiao03.jpg"/></li>
+							<li><img src="images/tiao03.jpg"/></li>
+						</ul>
+						<ul class="style02 jia04">
+							<li class="or"><img src="images/tiao04.jpg"/></li>
+							<li><img src="images/tiao04.jpg"/></li>
+							<li><img src="images/tiao04.jpg"/></li>
+							<li><img src="images/tiao04.jpg"/></li>
+							<li><img src="images/tiao04.jpg"/></li>
+							<li><img src="images/tiao04.jpg"/></li>
+						</ul>
+					</div>
+					<h5>我要体验 预约<b>免费量尺</b>设计</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--模板3 结束-->
+	<div class="section section4">
+		<div class="pro_top">
+			<h3>
+				<span>案例展示</span>
+			</h3>
+		</div>
+		<div class="pro_down">
+			<div class="pro_main">
+				<div class="bd">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<div class="proimg">
+									<img class="sa" src="images/prolist01.jpg"/>
+									<img class="xa" src="images/prolist02.jpg"/>
+								</div>
+								<div class="prowen">
+									<h4>01</h4>
+									<h5>阿凡提音乐餐厅</h5>
+									<div class="xiao">
+										<p>项目面积：<span>4500平方</span></p>
+										<p>工程造价：<span>3800万元</span></p>
+										<p>简约、时尚：把握国际流行趋势，结合消费者审美观点量身打造，人性化...</p>
+									</div>
+									<a class="more" href=""></a>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="proimg">
+									<img class="sa" src="images/prolist02.jpg"/>
+									<img class="xa" src="images/prolist03.jpg"/>
+								</div>
+								<div class="prowen">
+									<h4>02</h4>
+									<h5>阿凡提音乐餐厅</h5>
+									<div class="xiao">
+										<p>项目面积：<span>4500平方</span></p>
+										<p>工程造价：<span>3800万元</span></p>
+										<p>简约、时尚：把握国际流行趋势，结合消费者审美观点量身打造，人性化...</p>
+									</div>
+									<a class="more" href=""></a>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="proimg">
+									<img class="sa" src="images/prolist03.jpg"/>
+									<img class="xa" src="images/prolist01.jpg"/>
+								</div>
+								<div class="prowen">
+									<h4>03</h4>
+									<h5>阿凡提音乐餐厅</h5>
+									<div class="xiao">
+										<p>项目面积：<span>4500平方</span></p>
+										<p>工程造价：<span>3800万元</span></p>
+										<p>简约、时尚：把握国际流行趋势，结合消费者审美观点量身打造，人性化...</p>
+									</div>
+									<a class="more" href=""></a>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="proimg">
+									<img class="sa" src="images/prolist02.jpg"/>
+									<img class="xa" src="images/prolist03.jpg"/>
+								</div>
+								<div class="prowen">
+									<h4>04</h4>
+									<h5>阿凡提音乐餐厅</h5>
+									<div class="xiao">
+										<p>项目面积：<span>4500平方</span></p>
+										<p>工程造价：<span>3800万元</span></p>
+										<p>简约、时尚：把握国际流行趋势，结合消费者审美观点量身打造，人性化...</p>
+									</div>
+									<a class="more" href=""></a>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="proimg">
+									<img class="sa" src="images/prolist01.jpg"/>
+									<img class="xa" src="images/prolist02.jpg"/>
+								</div>
+								<div class="prowen">
+									<h4>04</h4>
+									<h5>阿凡提音乐餐厅</h5>
+									<div class="xiao">
+										<p>项目面积：<span>4500平方</span></p>
+										<p>工程造价：<span>3800万元</span></p>
+										<p>简约、时尚：把握国际流行趋势，结合消费者审美观点量身打造，人性化...</p>
+									</div>
+									<a class="more" href=""></a>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<a class="prev" href="javascript:void(0)">
+					<canvas id="leftbtn" width="90" height="172"></canvas>
+				</a>
+				<a class="next" href="javascript:void(0)">
+					<canvas id="rightbtn" width="90" height="172"></canvas>
+				</a>
+			</div>
+		</div>
+		<canvas id="myCanvas" width="218" height="422"></canvas>
+	</div>
+	<!--模板4 结束-->
+	<div class="section section5">
+		<div class="wrap">
+			<div class="team_top">
+				<h3><span>核心团队</span></h3>
+			</div>
+			<div class="team_down">
+				
+				<div class="bd">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<div class="renwu">
+									<img src="images/teh01.jpg"/>
+								</div>
+								<div class="jieshao">
+									<h4>凌夏</h4>
+									<h5>主创方案总监</h5>
+									<p>环境艺术硕士，具有良好的色彩感及色彩和材质搭配把控能力，对空间的运用及美感营造相当敏锐，从事室内设计行业20年.....</p>
+								</div>
+								<div class="more"></div>
+							</a>
+						</li>
+						<li class="kanjie">
+							<a href="#">
+								<div class="renwu">
+								<img src="images/teh02.jpg"/>
+								</div>
+								<div class="jieshao">
+									<h4>凌夏</h4>
+									<h5>主创方案总监</h5>
+									<p>环境艺术硕士，具有良好的色彩感及色彩和材质搭配把控能力，对空间的运用及美感营造相当敏锐，从事室内设计行业20年.....</p>
+								</div>
+								<div class="more"></div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="renwu">
+								<img src="images/teh03.jpg"/>
+								</div>
+								<div class="jieshao">
+									<h4>凌夏</h4>
+									<h5>主创方案总监</h5>
+									<p>环境艺术硕士，具有良好的色彩感及色彩和材质搭配把控能力，对空间的运用及美感营造相当敏锐，从事室内设计行业20年.....</p>
+								</div>
+								<div class="more"></div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<a class="prev" href="javascript:void(0)">
+					<canvas id="lbtn" width="90" height="172"></canvas>
+				</a>
+				<a class="next" href="javascript:void(0)">
+					<canvas id="rbtn" width="90" height="172"></canvas>
+				</a>
+			</div>
+			<div class="xiabiao"></div>
+		</div>
+	</div>
+	<!--模板5 结束-->
+	<div class="section section6">
+		<div class="dong">
+			<div class="dong_top">
+				<h3><span>欣宇动态</span></h3>
+			</div>
+			<div class="dong_down clearfix">
+				<div class="dd_left">
+					<dl>
+						<dt><a href="#"><img src="images/dongimg.jpg"/></a></dt>
+						<dd>
+							<h5><a href="#">【欣宇新闻】第十六届墙纸布艺展览会</a></h5>
+							<p>来源：<span></span>时间：<b>2014-12-24</b></p>
+						</dd>
+					</dl>
+				</div>
+				<div class="dd_right">
+					<ul>
+						<li class="zhanxian">
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+						<li>
+							<h4><a href=""><span>【欣宇新闻】第十六届墙纸布艺展览会</span></a><b>2014-12-24</b></h4>
+							<div class="xiangq">
+								<p>第十八届中国（上海）墙纸布艺地毯暨家居软装饰展览会（上海墙纸布艺地毯展）于2014年8月6-8日在上海新国际博览中心隆重举办。上海墙纸布艺年...</p>
+								<a class="chaxiang" href="#">+ 查看看详情</a>
+							</div>
+						</li>
+					</ul>
+					<div class="dongbtn">
+						<a class="dshang" href="#"></a>
+						<a class="dxia" href="#"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--模板6 结束-->
+	<div class="section section7">
+			<div class="lianx_top">
+				<h3><span>联系欣宇</span></h3>
+			</div>
+			<div class="lianx_main clearfix">
+				<div class="lx_left">
+					<img src="images/dubukefu.png"/>
+					<div class="zhezhao">
+						<h5>"欣宇装饰 装饰我家"</h5>
+						<h6>- 全程咨询服务 -</h6>
+						<p>全天24小时服务在线</p>
+						<p>您的每一次反馈，都是欣宇最宝贵的财富</p>
+						<span>400-888-8888</span>
+					</div>
+				</div>
+				<div class="lx_right">
+					<h4><img src="images/footertit.png"/></h4>
+					<h4>立即留言<span>温馨提示：为确保注册的有效性，请您填写真实的姓名和联系方式</span></h4>
+					<div class="biaodan">
+						<form action="">
+							<ul class="form_ul clearfix">
+					 			<li>
+					 				姓    名
+					 				<input type="text" name="name" class="name">
+					 				<div class="bt"></div>
+					 			</li>
+					 		    <li>
+					 		    	电    话
+					 		    	<input type="text" name="tel" class="tel">
+					 		    	<div class="bt"></div>
+					 		    </li>
+					 		    <li>
+					 		    	邮    箱
+					 		    	<input type="text" name="email" class="email">
+					 		    	<div class="bt"></div>
+					 		    </li>
+					 		    <li>
+					 		    	地    址
+					 		    	<input type="text" name="address" class="address">
+					 		    	<div class="bt"></div>
+					 		    </li>
+					 		    <li>
+					 		    	留    言  
+					 		    	<textarea class="lastli" name="liuyan" rows="8" cols="75"></textarea>
+					 		    </li>
+					 		</ul>
+					 		<div class="btn">
+					 			<input type="submit" class="submit" value="提 交">
+					 			<input type="reset" class="reset" value="清 除">
+					 		</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="lianx_down">
+				<div class="foot_nav">
+					<div class="footlis clearfix">
+						<a class="zhuanq" href="javascript:;"><i></i><span><b>XinYu</b>欣 宇</span></a>
+						<a href="javascript:;"><i></i><span><b>XinYu</b>产 品</span></a>
+						<a href="javascript:;"><i></i><span><b>Case</b>案 例</span></a>
+						<a href="javascript:;"><i></i><span><b>Branch</b>分 店</span></a>
+						<a href="javascript:;"><i></i><span><b>Dynamic</b>动 态</span></a>
+						<a href="javascript:;"><i></i><span><b>Contact</b>联 系</span></a>
+					</div>
+				</div>
+				<div class="foot_logo">
+					<a href=""><img src="images/downlogo.png"/></a>
+				</div>
+				<div class="dizhi">
+					<p>电话：021-34723102</p>
+					<p>地址：上海市闵行区星东路599号10号楼205-213号</p>
+					<p>上海欣宇装饰材料有限公司  沪ICP备88888888号  技术支持：九口袋网络</p>
+				</div>
+			</div>	
+	</div>
+	<!--模板7 结束-->
+</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+		var c=document.getElementById("myCanvas");
+		var cxt=c.getContext("2d");
+		cxt.strokeStyle = "#dbdbdb"
+		cxt.fillStyle="#dbdbdb";
+		cxt.moveTo(0,0);
+		cxt.lineTo(213,218);
+		cxt.lineTo(27,423);
+		cxt.lineTo(0,423);
+		cxt.stroke();
+		cxt.fill();
+		var l=document.getElementById("leftbtn");
+		var cbt=l.getContext("2d");
+		cbt.strokeStyle = "#666"
+		cbt.lineWidth = 2;
+		cbt.moveTo(90,0);
+		cbt.lineTo(1,86);
+		cbt.lineTo(90,172);
+		cbt.stroke();
+		var r=document.getElementById("rightbtn");
+		var cat=r.getContext("2d");
+		cat.strokeStyle = "#666"
+		cat.lineWidth = 2;
+		cat.moveTo(0,0);
+		cat.lineTo(90,86);
+		cat.lineTo(0,172);
+		cat.stroke();
+		var le=document.getElementById("lbtn");
+		var cbt=le.getContext("2d");
+		cbt.strokeStyle = "#666"
+		cbt.lineWidth = 2;
+		cbt.moveTo(90,0);
+		cbt.lineTo(1,86);
+		cbt.lineTo(90,172);
+		cbt.stroke();
+		var ri=document.getElementById("rbtn");
+		var cat=ri.getContext("2d");
+		cat.strokeStyle = "#666"
+		cat.lineWidth = 2;
+		cat.moveTo(0,0);
+		cat.lineTo(90,86);
+		cat.lineTo(0,172);
+		cat.stroke();
+//canvasbg end
+	})
+</script>
+</html>
